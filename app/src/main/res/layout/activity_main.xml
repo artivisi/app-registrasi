@@ -12,7 +12,8 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="176dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
         android:src="@drawable/logo_act_white_background"
         android:id="@+id/imageView7" />
 
@@ -25,7 +26,8 @@
         android:ems="10"
         android:id="@+id/etNama"
         android:hint="Nama"
-        android:layout_margin="7dp"/>
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp" />
 
     <EditText
         android:layout_width="match_parent"
@@ -34,7 +36,7 @@
         android:ems="10"
         android:id="@+id/etEmail"
         android:hint="Email"
-        android:layout_margin="7dp"/>
+        android:layout_marginLeft="5dp" />
 
     <EditText
         android:layout_width="match_parent"
@@ -43,7 +45,7 @@
         android:ems="10"
         android:id="@+id/etNoHp"
         android:hint="No.Hp"
-        android:layout_margin="7dp"/>
+        android:layout_marginLeft="5dp" />
 
     <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
         android:layout_width="match_parent"
@@ -54,7 +56,7 @@
         android:hint="Password"
         app:drawable_hide="@drawable/view"
         app:drawable_show="@drawable/hide"
-        android:layout_margin="7dp"/>
+        android:layout_marginLeft="5dp" />
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -65,14 +67,12 @@
             android:layout_width="343dp"
             android:layout_height="wrap_content"
             android:id="@+id/btnRegister"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
             android:backgroundTint="@color/colorPrimary"
             android:textStyle="bold"
-            android:textColor="@android:color/background_light" />
+            android:textColor="@android:color/background_light"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 
     </RelativeLayout>
 
