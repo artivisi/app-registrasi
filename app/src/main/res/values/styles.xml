@@ -8,4 +8,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="WhiteSpaceVertical">
+        <item name="android:layout_width">@dimen/line</item>
+        <item name="android:layout_height">@dimen/layout_padding</item>
+    </style>
+
 </resources>

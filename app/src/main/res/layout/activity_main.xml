@@ -10,6 +10,14 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:src="@drawable/logo_act_white_background"
+        android:id="@+id/imageView7" />
+
+    <View style="@style/WhiteSpaceVertical" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -49,24 +57,24 @@
         android:layout_margin="7dp"/>
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-            <Button
-                android:text="Register"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/btnRegister"
-                android:layout_alignParentBottom="true"
-                android:layout_marginBottom="37dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:backgroundTint="@color/colorPrimary"
-                android:textStyle="bold"
-                android:textColor="@android:color/background_light" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
-        </RelativeLayout>
+        <Button
+            android:text="Register"
+            android:layout_width="343dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRegister"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:backgroundTint="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_light" />
+
+    </RelativeLayout>
+
+
 </LinearLayout>
